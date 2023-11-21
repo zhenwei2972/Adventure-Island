@@ -8,6 +8,7 @@ Playable android build is available [here](https://drive.google.com/drive/folder
 
 
 Enable developer mode, install the APK on your android device, enable Location permissions and try out the application! 
+Ensure that in app settings, Locations is enabled whenever you are using the app, this is required for all the APIs to work
 
 # Notes
 
@@ -24,3 +25,17 @@ Helpful data such as Place rating, Name, Image and even straight line haversine 
 Discover nearby food places, entertainment locations and even shopping centres near you, a helpful list is displayed on screen simply click on the buttons that appear after a search. 
 
 For the bargain deal hunter, search for promotions that pop up across the map, once you find them, head down to the physical location switch to AR mode and pick up the AR coupon to redeem a nice bargain! 
+
+# Build Instructions
+If you intend to make a buiold please replace the Api key with your own Google Cloud API key that has Map Tiles and Places API enabled
+Do add your API key at the following locations.
+
+1)
+CesiumGeoreference -> Cesium3DTileSet -> URL 
+Please append your key with the following format 
+https://tile.googleapis.com/v1/3dtiles/root.json?key="YOUR KEY HERE"
+
+2)
+In CesiumGeoreference game object, there will be a PointOfInterest component. Please set the apikey string value to your API key.
+
+
