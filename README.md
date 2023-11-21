@@ -1,5 +1,7 @@
 # Adventure-Island
-Made with Unity, Google Geospatial Hackathon Immersive Geospatial experience with Geospatial Creator and Google Photorealistic 3D tiles
+![](/images/adventure-island-logo.jpg)
+
+Inspired by navigation systems in Games; with 3D Map tiles, users can explore the real world through game like user experiences. Explore unfamiliar cities in a new way that highlights hidden gems around the usual tourist attractions and rewards you for exploring.
 
 
 # Instructions
