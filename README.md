@@ -29,7 +29,7 @@ Discover nearby food places, entertainment locations and even shopping centres n
 For the bargain deal hunter, search for promotions that pop up across the map, once you find them, head down to the physical location switch to AR mode and pick up the AR coupon to redeem a nice bargain! 
 
 # Build Instructions
-If you intend to make a buiold please replace the Api key with your own Google Cloud API key that has Map Tiles and Places API enabled
+If you intend to make a build please replace the API key with your own Google Cloud API key that has Map Tiles and Places API enabled
 Do add your API key at the following locations.
 
 1)
