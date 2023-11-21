@@ -17,8 +17,8 @@ public class DirectionsManager : MonoBehaviour
     {
         currentStepList = _stepList;
     }
-    
-    public string apiKey = "AIzaSyBApRjY39Y4AzMf2NBica2KJT10mZ_H-QY";
+
+    public string apiKey = "";
 
 
     public void SetupDirectionsFlow()

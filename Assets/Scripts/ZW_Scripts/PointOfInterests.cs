@@ -16,9 +16,9 @@ using TMPro;
 public class PointsOfInterest : MonoBehaviour
 {
     //set your api key here
-    private string apiKey = "AIzaSyBApRjY39Y4AzMf2NBica2KJT10mZ_H-QY";
+    public string apiKey = "";
     private string baseUrl = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
-    public int radius = 3000; // Radius in meters (adjust as needed)
+    public int radius = 2000; // Radius in meters (adjust as needed)
     public string searchString = "Sentosa"; // Search Keyword( same as google search ) (e.g., restaurant, museum, etc.)
     private int heightOffset = 15;
     public GameObject LocationIcon;
@@ -204,7 +204,7 @@ public class PointsOfInterest : MonoBehaviour
     {
         
         float[] currLatLong = GetDeviceLatLong();
-        string url = baseUrl + "location=" + currLatLong[0] + "," + currLatLong[1] + "&radius=" + 800 + "&type=" + _type + "&key=" + apiKey;
+        string url = baseUrl + "location=" + currLatLong[0] + "," + currLatLong[1] + "&radius=" + 400 + "&type=" + _type + "&key=" + apiKey;
 
         Debug.Log(url);
         using (UnityWebRequest webRequest = UnityWebRequest.Get(url))
